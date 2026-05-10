@@ -2,6 +2,8 @@ name: first github actions ci
 
 on: [push]
 
+runs-on: self-hosted
+
 jobs:
   build:
     runs-on: ubuntu-latest
