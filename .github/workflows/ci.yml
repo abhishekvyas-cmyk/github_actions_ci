@@ -15,4 +15,4 @@ jobs:
     - name: install dependencies
       run:  npm install
     - name:  run node server
-      run:  node server.js
+      run:  timeout 10s node server.js
