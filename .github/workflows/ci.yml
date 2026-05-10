@@ -14,5 +14,5 @@ jobs:
         node-version: '24.15.0'
     - name: install dependencies
       run:  npm install
-    - name:  run node server
-      run:  timeout 10s node server.js
+    - name:  run node test
+      run:  node test.js

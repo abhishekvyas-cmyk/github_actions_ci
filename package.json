@@ -2,17 +2,20 @@
   "name": "github_actions_ci",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekvyas-cmyk/github_actions_ci.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1"
-  }
+  "bugs": {
+    "url": "https://github.com/abhishekvyas-cmyk/github_actions_ci/issues"
+  },
+  "homepage": "https://github.com/abhishekvyas-cmyk/github_actions_ci#readme"
 }
